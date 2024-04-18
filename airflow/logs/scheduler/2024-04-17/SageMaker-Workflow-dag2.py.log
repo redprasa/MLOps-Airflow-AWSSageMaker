@@ -1,0 +1,182 @@
+[2024-04-17T16:46:15.017+0000] {processor.py:161} INFO - Started process (PID=29667) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:46:15.017+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-17T16:46:15.019+0000] {logging_mixin.py:188} INFO - [2024-04-17T16:46:15.019+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:46:15.027+0000] {logging_mixin.py:188} INFO - [2024-04-17T16:46:15.026+0000] {dagbag.py:350} ERROR - Failed to import: /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py", line 3, in <module>
+    from airflow.providers.amazon.aws.operators.sagemaker_training import SageMakerTrainingOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon'
+[2024-04-17T16:46:15.027+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:46:15.045+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.034 seconds
+[2024-04-17T16:47:06.452+0000] {processor.py:161} INFO - Started process (PID=29774) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:47:06.453+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-17T16:47:06.455+0000] {logging_mixin.py:188} INFO - [2024-04-17T16:47:06.455+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:47:06.458+0000] {logging_mixin.py:188} INFO - [2024-04-17T16:47:06.457+0000] {dagbag.py:350} ERROR - Failed to import: /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py", line 3, in <module>
+    from airflow.providers.amazon.aws.operators.sagemaker_training import SageMakerTrainingOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon'
+[2024-04-17T16:47:06.458+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:47:06.478+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.032 seconds
+[2024-04-17T16:47:18.498+0000] {processor.py:161} INFO - Started process (PID=29846) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:47:18.499+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-17T16:47:18.499+0000] {logging_mixin.py:188} INFO - [2024-04-17T16:47:18.499+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:47:18.503+0000] {logging_mixin.py:188} INFO - [2024-04-17T16:47:18.502+0000] {dagbag.py:350} ERROR - Failed to import: /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py", line 3, in <module>
+    from airflow.providers.amazon.aws.operators.sagemaker_training import SageMakerTrainingOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon'
+[2024-04-17T16:47:18.503+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:47:18.523+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.032 seconds
+[2024-04-17T16:47:52.274+0000] {processor.py:161} INFO - Started process (PID=29911) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:47:52.275+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-17T16:47:52.275+0000] {logging_mixin.py:188} INFO - [2024-04-17T16:47:52.275+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:47:52.279+0000] {logging_mixin.py:188} INFO - [2024-04-17T16:47:52.278+0000] {dagbag.py:350} ERROR - Failed to import: /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py", line 3, in <module>
+    from airflow.providers.amazon.aws.operators.sagemaker_training import SageMakerTrainingOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon'
+[2024-04-17T16:47:52.279+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:47:52.297+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.030 seconds
+[2024-04-17T16:47:56.847+0000] {processor.py:161} INFO - Started process (PID=29920) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:47:56.848+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-17T16:47:56.849+0000] {logging_mixin.py:188} INFO - [2024-04-17T16:47:56.849+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:47:56.853+0000] {logging_mixin.py:188} INFO - [2024-04-17T16:47:56.852+0000] {dagbag.py:350} ERROR - Failed to import: /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py", line 3, in <module>
+    from airflow.providers.amazon.aws.operators.sagemaker_training import SageMakerTrainingOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon'
+[2024-04-17T16:47:56.853+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:47:56.871+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.030 seconds
+[2024-04-17T16:48:37.355+0000] {processor.py:161} INFO - Started process (PID=29999) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:48:37.356+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-17T16:48:37.357+0000] {logging_mixin.py:188} INFO - [2024-04-17T16:48:37.357+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:48:37.360+0000] {logging_mixin.py:188} INFO - [2024-04-17T16:48:37.359+0000] {dagbag.py:350} ERROR - Failed to import: /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py", line 3, in <module>
+    from airflow.providers.amazon.aws.operators.sagemaker_training import SageMakerTrainingOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon'
+[2024-04-17T16:48:37.361+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:48:37.378+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.030 seconds
+[2024-04-17T16:49:22.184+0000] {processor.py:161} INFO - Started process (PID=30092) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:49:22.185+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-17T16:49:22.186+0000] {logging_mixin.py:188} INFO - [2024-04-17T16:49:22.186+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:49:22.190+0000] {logging_mixin.py:188} INFO - [2024-04-17T16:49:22.189+0000] {dagbag.py:350} ERROR - Failed to import: /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py", line 3, in <module>
+    from airflow.providers.amazon.aws.operators.sagemaker_training import SageMakerTrainingOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.operators.sagemaker_training'
+[2024-04-17T16:49:22.190+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:49:22.208+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.032 seconds
+[2024-04-17T16:49:25.628+0000] {processor.py:161} INFO - Started process (PID=30099) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:49:25.629+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-17T16:49:25.631+0000] {logging_mixin.py:188} INFO - [2024-04-17T16:49:25.630+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:49:25.638+0000] {logging_mixin.py:188} INFO - [2024-04-17T16:49:25.637+0000] {dagbag.py:350} ERROR - Failed to import: /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py", line 3, in <module>
+    from airflow.providers.amazon.aws.operators.sagemaker_training import SageMakerTrainingOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.operators.sagemaker_training'
+[2024-04-17T16:49:25.638+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:49:25.656+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.034 seconds
+[2024-04-17T16:50:05.040+0000] {processor.py:161} INFO - Started process (PID=30160) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:50:05.042+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-17T16:50:05.043+0000] {logging_mixin.py:188} INFO - [2024-04-17T16:50:05.043+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:50:05.046+0000] {logging_mixin.py:188} INFO - [2024-04-17T16:50:05.045+0000] {dagbag.py:350} ERROR - Failed to import: /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py", line 3, in <module>
+    from airflow.providers.amazon.aws.operators.sagemaker_training import SageMakerTrainingOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.operators.sagemaker_training'
+[2024-04-17T16:50:05.046+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:50:05.067+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.035 seconds
+[2024-04-17T16:50:35.143+0000] {processor.py:161} INFO - Started process (PID=30198) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:50:35.144+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-17T16:50:35.146+0000] {logging_mixin.py:188} INFO - [2024-04-17T16:50:35.145+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:50:35.153+0000] {logging_mixin.py:188} INFO - [2024-04-17T16:50:35.152+0000] {dagbag.py:350} ERROR - Failed to import: /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py", line 3, in <module>
+    from airflow.providers.amazon.aws.operators.sagemaker_training import SageMakerTrainingOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.operators.sagemaker_training'
+[2024-04-17T16:50:35.154+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:50:35.174+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.037 seconds
+[2024-04-17T16:50:51.644+0000] {processor.py:161} INFO - Started process (PID=30232) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:50:51.646+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-17T16:50:51.647+0000] {logging_mixin.py:188} INFO - [2024-04-17T16:50:51.646+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:50:51.650+0000] {logging_mixin.py:188} INFO - [2024-04-17T16:50:51.649+0000] {dagbag.py:350} ERROR - Failed to import: /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py", line 3, in <module>
+    from airflow.providers.amazon.aws.operators.sagemaker_training import SageMakerTrainingOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.operators.sagemaker_training'
+[2024-04-17T16:50:51.650+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:50:51.669+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.034 seconds
+[2024-04-17T16:51:26.473+0000] {processor.py:161} INFO - Started process (PID=30378) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:51:26.475+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-17T16:51:26.476+0000] {logging_mixin.py:188} INFO - [2024-04-17T16:51:26.476+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:51:26.480+0000] {logging_mixin.py:188} INFO - [2024-04-17T16:51:26.479+0000] {dagbag.py:350} ERROR - Failed to import: /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py", line 3, in <module>
+    from airflow.providers.amazon.aws.operators.sagemaker_training import SageMakerTrainingOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.operators.sagemaker_training'
+[2024-04-17T16:51:26.480+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:51:26.499+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.032 seconds
+[2024-04-17T16:51:35.195+0000] {processor.py:161} INFO - Started process (PID=30399) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:51:35.196+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-17T16:51:35.197+0000] {logging_mixin.py:188} INFO - [2024-04-17T16:51:35.196+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:51:35.200+0000] {logging_mixin.py:188} INFO - [2024-04-17T16:51:35.199+0000] {dagbag.py:350} ERROR - Failed to import: /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py", line 3, in <module>
+    from airflow.providers.amazon.aws.operators.sagemaker_training import SageMakerTrainingOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.operators.sagemaker_training'
+[2024-04-17T16:51:35.201+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-17T16:51:35.220+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.033 seconds

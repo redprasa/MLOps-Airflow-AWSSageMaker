@@ -1,0 +1,9 @@
+{
+  "Model": {
+    "Image": "your-container-image-uri",
+    "ModelDataUrl": "s3://your-bucket/your-model-data",
+    "ExecutionRoleArn": "arn:aws:iam::your-account:role/your-role",
+    "EnableNetworkIsolation": true
+  }
+}
+

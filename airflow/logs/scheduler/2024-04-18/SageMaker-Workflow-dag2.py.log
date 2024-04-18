@@ -1,0 +1,564 @@
+[2024-04-18T01:28:18.738+0000] {processor.py:161} INFO - Started process (PID=92970) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:28:18.738+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T01:28:18.739+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:28:18.739+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:28:18.747+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:28:18.869+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:28:18.868+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:sagemaker_workflow
+[2024-04-18T01:28:18.882+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:28:18.881+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:sagemaker_workflow
+[2024-04-18T01:28:18.891+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:28:18.890+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:sagemaker_workflow
+[2024-04-18T01:28:18.891+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:28:18.891+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T01:28:18.903+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:28:18.902+0000] {dag.py:3118} INFO - Creating ORM DAG for sagemaker_workflow
+[2024-04-18T01:28:18.903+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:28:18.903+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T01:28:18.923+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.194 seconds
+[2024-04-18T01:28:31.919+0000] {processor.py:161} INFO - Started process (PID=93025) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:28:31.920+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T01:28:31.922+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:28:31.921+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:28:31.933+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:28:31.940+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:28:31.940+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T01:28:31.954+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:28:31.954+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T01:28:31.979+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.066 seconds
+[2024-04-18T01:28:49.839+0000] {processor.py:161} INFO - Started process (PID=93113) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:28:49.840+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T01:28:49.841+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:28:49.840+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:28:49.848+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:28:49.866+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:28:49.866+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T01:28:49.879+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:28:49.879+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T01:28:49.901+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.070 seconds
+[2024-04-18T01:29:34.589+0000] {processor.py:161} INFO - Started process (PID=93348) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:29:34.590+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T01:29:34.592+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:29:34.591+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:29:34.599+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:29:34.617+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:29:34.617+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T01:29:34.630+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:29:34.629+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T01:29:34.657+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.076 seconds
+[2024-04-18T01:30:18.415+0000] {processor.py:161} INFO - Started process (PID=93532) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:30:18.417+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T01:30:18.417+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:30:18.417+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:30:18.425+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:30:18.443+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:30:18.443+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T01:30:18.456+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:30:18.456+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T01:30:18.478+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.071 seconds
+[2024-04-18T01:31:01.398+0000] {processor.py:161} INFO - Started process (PID=93756) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:31:01.408+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T01:31:01.409+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:31:01.409+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:31:01.431+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:31:01.462+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:31:01.462+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T01:31:01.477+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:31:01.477+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T01:31:01.505+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.116 seconds
+[2024-04-18T01:31:04.946+0000] {processor.py:161} INFO - Started process (PID=93771) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:31:04.947+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T01:31:04.948+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:31:04.948+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:31:04.966+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:31:04.994+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:31:04.994+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T01:31:05.007+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:31:05.007+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T01:31:05.034+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.102 seconds
+[2024-04-18T01:31:45.640+0000] {processor.py:161} INFO - Started process (PID=93961) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:31:45.641+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T01:31:45.642+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:31:45.642+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:31:45.650+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:31:45.668+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:31:45.667+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T01:31:45.681+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:31:45.681+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T01:31:45.703+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.071 seconds
+[2024-04-18T01:31:48.723+0000] {processor.py:161} INFO - Started process (PID=93973) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:31:48.724+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T01:31:48.725+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:31:48.724+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:31:48.732+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:31:48.750+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:31:48.749+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T01:31:48.762+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:31:48.762+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T01:31:48.783+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.067 seconds
+[2024-04-18T01:31:56.688+0000] {processor.py:161} INFO - Started process (PID=94004) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:31:56.689+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T01:31:56.690+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:31:56.689+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:31:56.699+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:31:56.717+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:31:56.717+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T01:31:56.730+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:31:56.729+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T01:31:56.751+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.070 seconds
+[2024-04-18T01:32:29.027+0000] {processor.py:161} INFO - Started process (PID=94186) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:32:29.029+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T01:32:29.029+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:32:29.029+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:32:29.037+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:32:29.055+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:32:29.054+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T01:32:29.067+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:32:29.067+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T01:32:29.089+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.069 seconds
+[2024-04-18T01:32:34.434+0000] {processor.py:161} INFO - Started process (PID=94208) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:32:34.435+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T01:32:34.436+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:32:34.436+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:32:34.444+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:32:34.462+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:32:34.462+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T01:32:34.475+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:32:34.474+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T01:32:34.497+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.069 seconds
+[2024-04-18T01:32:41.922+0000] {processor.py:161} INFO - Started process (PID=94244) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:32:41.923+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T01:32:41.924+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:32:41.924+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:32:41.932+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:32:41.950+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:32:41.949+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T01:32:41.962+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:32:41.962+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T01:32:42.000+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.084 seconds
+[2024-04-18T01:32:52.360+0000] {processor.py:161} INFO - Started process (PID=94289) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:32:52.361+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T01:32:52.361+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:32:52.361+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:32:52.369+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:32:52.386+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:32:52.386+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T01:32:52.399+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:32:52.398+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T01:32:52.432+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.079 seconds
+[2024-04-18T01:33:09.979+0000] {processor.py:161} INFO - Started process (PID=94387) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:33:09.982+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T01:33:09.982+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:33:09.982+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:33:09.990+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:33:10.008+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:33:10.008+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T01:33:10.021+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:33:10.021+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T01:33:10.044+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.074 seconds
+[2024-04-18T01:33:18.110+0000] {processor.py:161} INFO - Started process (PID=94421) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:33:18.111+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T01:33:18.112+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:33:18.112+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:33:18.120+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:33:18.138+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:33:18.137+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T01:33:18.151+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:33:18.151+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T01:33:18.173+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.070 seconds
+[2024-04-18T01:33:22.072+0000] {processor.py:161} INFO - Started process (PID=94436) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:33:22.072+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T01:33:22.073+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:33:22.073+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:33:22.081+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:33:22.099+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:33:22.098+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T01:33:22.112+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:33:22.112+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T01:33:22.134+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.069 seconds
+[2024-04-18T01:33:23.355+0000] {processor.py:161} INFO - Started process (PID=94442) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:33:23.356+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T01:33:23.357+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:33:23.357+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:33:23.365+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:33:23.382+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:33:23.382+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T01:33:23.395+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:33:23.395+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T01:33:23.417+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.068 seconds
+[2024-04-18T01:33:53.353+0000] {processor.py:161} INFO - Started process (PID=94620) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:33:53.360+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T01:33:53.362+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:33:53.361+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:33:53.369+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:33:53.400+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:33:53.400+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T01:33:53.414+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:33:53.414+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T01:33:53.436+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.090 seconds
+[2024-04-18T01:33:59.417+0000] {processor.py:161} INFO - Started process (PID=94645) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:33:59.417+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T01:33:59.418+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:33:59.418+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:33:59.426+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:33:59.443+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:33:59.443+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T01:33:59.455+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:33:59.455+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T01:33:59.477+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.067 seconds
+[2024-04-18T01:34:04.784+0000] {processor.py:161} INFO - Started process (PID=94670) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:34:04.785+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T01:34:04.786+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:34:04.786+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:34:04.794+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:34:04.811+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:34:04.811+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T01:34:04.824+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:34:04.823+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T01:34:04.846+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.068 seconds
+[2024-04-18T01:34:10.149+0000] {processor.py:161} INFO - Started process (PID=94716) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:34:10.149+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T01:34:10.150+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:34:10.150+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:34:10.158+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:34:10.175+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:34:10.175+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T01:34:10.188+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:34:10.187+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T01:34:10.218+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.076 seconds
+[2024-04-18T01:34:34.964+0000] {processor.py:161} INFO - Started process (PID=94819) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:34:34.965+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T01:34:34.966+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:34:34.966+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:34:34.974+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:34:34.991+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:34:34.991+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T01:34:35.004+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:34:35.004+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T01:34:35.027+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.071 seconds
+[2024-04-18T01:34:36.866+0000] {processor.py:161} INFO - Started process (PID=94830) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:34:36.867+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T01:34:36.869+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:34:36.868+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:34:36.879+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:34:36.903+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:34:36.903+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T01:34:36.918+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:34:36.917+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T01:34:36.940+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.080 seconds
+[2024-04-18T01:34:39.659+0000] {processor.py:161} INFO - Started process (PID=94845) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:34:39.660+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T01:34:39.661+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:34:39.660+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:34:39.668+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:34:39.686+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:34:39.686+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T01:34:39.698+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:34:39.698+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T01:34:39.719+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.067 seconds
+[2024-04-18T01:34:48.860+0000] {processor.py:161} INFO - Started process (PID=94885) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:34:48.861+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T01:34:48.862+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:34:48.861+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:34:48.870+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:34:48.899+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:34:48.899+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T01:34:48.927+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:34:48.927+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T01:34:48.948+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.104 seconds
+[2024-04-18T01:34:52.126+0000] {processor.py:161} INFO - Started process (PID=94899) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:34:52.127+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T01:34:52.128+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:34:52.128+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:34:52.136+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:34:52.154+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:34:52.154+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T01:34:52.167+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:34:52.167+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T01:34:52.191+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.072 seconds
+[2024-04-18T01:35:20.184+0000] {processor.py:161} INFO - Started process (PID=95059) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:35:20.185+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T01:35:20.186+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:35:20.186+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:35:20.193+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:35:20.211+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:35:20.211+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T01:35:20.223+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:35:20.223+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T01:35:20.246+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.070 seconds
+[2024-04-18T01:35:25.021+0000] {processor.py:161} INFO - Started process (PID=95079) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:35:25.022+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T01:35:25.023+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:35:25.022+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:35:25.041+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:35:25.069+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:35:25.069+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T01:35:25.082+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:35:25.082+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T01:35:25.114+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.111 seconds
+[2024-04-18T01:35:31.496+0000] {processor.py:161} INFO - Started process (PID=95105) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:35:31.497+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T01:35:31.497+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:35:31.497+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:35:31.505+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:35:31.523+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:35:31.523+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T01:35:31.536+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:35:31.535+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T01:35:31.558+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.069 seconds
+[2024-04-18T01:35:36.665+0000] {processor.py:161} INFO - Started process (PID=95127) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:35:36.665+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T01:35:36.666+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:35:36.666+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:35:36.674+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:35:36.692+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:35:36.691+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T01:35:36.704+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:35:36.704+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T01:35:36.726+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.068 seconds
+[2024-04-18T01:35:59.085+0000] {processor.py:161} INFO - Started process (PID=95220) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:35:59.086+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T01:35:59.087+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:35:59.087+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:35:59.095+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:35:59.112+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:35:59.111+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T01:35:59.125+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:35:59.124+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T01:35:59.147+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.069 seconds
+[2024-04-18T01:36:08.934+0000] {processor.py:161} INFO - Started process (PID=95260) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:36:08.935+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T01:36:08.936+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:36:08.935+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:36:08.943+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:36:08.961+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:36:08.961+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T01:36:08.974+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:36:08.973+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T01:36:08.996+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.069 seconds
+[2024-04-18T01:36:12.647+0000] {processor.py:161} INFO - Started process (PID=95275) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:36:12.648+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T01:36:12.649+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:36:12.648+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:36:12.656+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:36:12.674+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:36:12.674+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T01:36:12.686+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:36:12.686+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T01:36:12.713+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.073 seconds
+[2024-04-18T01:36:19.186+0000] {processor.py:161} INFO - Started process (PID=95302) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:36:19.187+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T01:36:19.188+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:36:19.188+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:36:19.195+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T01:36:19.213+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:36:19.213+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T01:36:19.226+0000] {logging_mixin.py:188} INFO - [2024-04-18T01:36:19.225+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T01:36:19.247+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.068 seconds
+[2024-04-18T02:00:45.472+0000] {processor.py:161} INFO - Started process (PID=2405) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:00:45.473+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:00:45.475+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:00:45.475+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:00:45.499+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:00:45.530+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:00:45.530+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:00:45.546+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:00:45.546+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:00:45.574+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.108 seconds
+[2024-04-18T02:01:36.228+0000] {processor.py:161} INFO - Started process (PID=2462) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:01:36.229+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:01:36.231+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:01:36.231+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:01:36.238+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:01:36.254+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:01:36.254+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:01:36.266+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:01:36.265+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:01:36.287+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.065 seconds
+[2024-04-18T02:02:20.788+0000] {processor.py:161} INFO - Started process (PID=2553) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:02:20.789+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:02:20.791+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:02:20.790+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:02:20.798+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:02:20.814+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:02:20.814+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:02:20.825+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:02:20.825+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:02:20.845+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.063 seconds
+[2024-04-18T02:03:03.881+0000] {processor.py:161} INFO - Started process (PID=2649) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:03:03.883+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:03:03.884+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:03:03.884+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:03:03.891+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:03:03.908+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:03:03.908+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:03:03.919+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:03:03.919+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:03:03.939+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.064 seconds
+[2024-04-18T02:03:47.500+0000] {processor.py:161} INFO - Started process (PID=2724) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:03:47.501+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:03:47.503+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:03:47.503+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:03:47.510+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:03:47.526+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:03:47.526+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:03:47.538+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:03:47.538+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:03:47.558+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.064 seconds
+[2024-04-18T02:04:31.161+0000] {processor.py:161} INFO - Started process (PID=2768) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:04:31.162+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:04:31.164+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:04:31.163+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:04:31.170+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:04:31.187+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:04:31.186+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:04:31.198+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:04:31.198+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:04:31.219+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.064 seconds
+[2024-04-18T02:05:11.963+0000] {processor.py:161} INFO - Started process (PID=2860) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:05:11.964+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:05:11.966+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:05:11.966+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:05:11.973+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:05:11.989+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:05:11.989+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:05:12.001+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:05:12.001+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:05:12.022+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.065 seconds
+[2024-04-18T02:05:59.720+0000] {processor.py:161} INFO - Started process (PID=2921) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:05:59.721+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:05:59.723+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:05:59.722+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:05:59.730+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:05:59.747+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:05:59.747+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:05:59.759+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:05:59.759+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:05:59.780+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.066 seconds
+[2024-04-18T02:06:42.601+0000] {processor.py:161} INFO - Started process (PID=3017) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:06:42.602+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:06:42.603+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:06:42.603+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:06:42.610+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:06:42.627+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:06:42.626+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:06:42.638+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:06:42.638+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:06:42.660+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.065 seconds
+[2024-04-18T02:07:23.889+0000] {processor.py:161} INFO - Started process (PID=3060) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:07:23.891+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:07:23.892+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:07:23.892+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:07:23.899+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:07:23.916+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:07:23.916+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:07:23.928+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:07:23.928+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:07:23.948+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.065 seconds
+[2024-04-18T02:08:07.777+0000] {processor.py:161} INFO - Started process (PID=3104) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:08:07.778+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:08:07.780+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:08:07.779+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:08:07.787+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:08:07.803+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:08:07.803+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:08:07.815+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:08:07.815+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:08:07.836+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.065 seconds
+[2024-04-18T02:08:53.108+0000] {processor.py:161} INFO - Started process (PID=3197) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:08:53.109+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:08:53.111+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:08:53.110+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:08:53.118+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:08:53.135+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:08:53.135+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:08:53.148+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:08:53.148+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:08:53.169+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.068 seconds
+[2024-04-18T02:09:38.287+0000] {processor.py:161} INFO - Started process (PID=3242) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:09:38.288+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:09:38.290+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:09:38.289+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:09:38.297+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:09:38.313+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:09:38.313+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:09:38.325+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:09:38.324+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:09:38.344+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.063 seconds
+[2024-04-18T02:10:19.038+0000] {processor.py:161} INFO - Started process (PID=3338) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:10:19.041+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:10:19.042+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:10:19.042+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:10:19.049+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:10:19.066+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:10:19.066+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:10:19.078+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:10:19.078+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:10:19.099+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.067 seconds
+[2024-04-18T02:11:01.638+0000] {processor.py:161} INFO - Started process (PID=3387) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:11:01.639+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:11:01.640+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:11:01.640+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:11:01.647+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:11:01.664+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:11:01.664+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:11:01.675+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:11:01.675+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:11:01.696+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.065 seconds
+[2024-04-18T02:11:41.308+0000] {processor.py:161} INFO - Started process (PID=3478) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:11:41.310+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:11:41.312+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:11:41.311+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:11:41.318+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:11:41.334+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:11:41.334+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:11:41.346+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:11:41.346+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:11:41.367+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.064 seconds
+[2024-04-18T02:12:22.541+0000] {processor.py:161} INFO - Started process (PID=3520) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:12:22.542+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:12:22.544+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:12:22.543+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:12:22.551+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:12:22.567+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:12:22.567+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:12:22.578+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:12:22.578+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:12:22.599+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.064 seconds
+[2024-04-18T02:13:04.851+0000] {processor.py:161} INFO - Started process (PID=3565) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:13:04.853+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:13:04.854+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:13:04.854+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:13:04.862+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:13:04.879+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:13:04.879+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:13:04.891+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:13:04.891+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:13:04.912+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.067 seconds
+[2024-04-18T02:13:46.618+0000] {processor.py:161} INFO - Started process (PID=3657) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:13:46.620+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:13:46.621+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:13:46.621+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:13:46.628+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:13:46.644+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:13:46.644+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:13:46.656+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:13:46.656+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:13:46.676+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.064 seconds
+[2024-04-18T02:14:30.328+0000] {processor.py:161} INFO - Started process (PID=3702) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:14:30.329+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:14:30.331+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:14:30.330+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:14:30.338+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:14:30.355+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:14:30.355+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:14:30.367+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:14:30.367+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:14:30.388+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.066 seconds
+[2024-04-18T02:15:11.990+0000] {processor.py:161} INFO - Started process (PID=3747) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:15:11.991+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:15:11.992+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:15:11.992+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:15:11.999+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:15:12.016+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:15:12.016+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:15:12.028+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:15:12.028+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:15:12.047+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.064 seconds
+[2024-04-18T02:15:50.400+0000] {processor.py:161} INFO - Started process (PID=3837) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:15:50.402+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:15:50.403+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:15:50.403+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:15:50.410+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:15:50.427+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:15:50.427+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:15:50.440+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:15:50.440+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:15:50.460+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.066 seconds
+[2024-04-18T02:16:26.529+0000] {processor.py:161} INFO - Started process (PID=3876) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:16:26.530+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:16:26.532+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:16:26.532+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:16:26.539+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:16:26.555+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:16:26.555+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:16:26.567+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:16:26.567+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:16:26.589+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.066 seconds
+[2024-04-18T02:17:08.965+0000] {processor.py:161} INFO - Started process (PID=3919) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:17:08.966+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:17:08.968+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:17:08.968+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:17:08.975+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:17:08.991+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:17:08.991+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:17:09.003+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:17:09.002+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:17:09.023+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.064 seconds
+[2024-04-18T02:17:48.997+0000] {processor.py:161} INFO - Started process (PID=4006) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:17:48.999+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:17:49.000+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:17:49.000+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:17:49.008+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:17:49.025+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:17:49.025+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:17:49.037+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:17:49.037+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:17:49.057+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.066 seconds
+[2024-04-18T02:18:34.847+0000] {processor.py:161} INFO - Started process (PID=4052) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:18:34.848+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:18:34.850+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:18:34.849+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:18:34.856+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:18:34.873+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:18:34.872+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:18:34.885+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:18:34.884+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:18:34.907+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.066 seconds
+[2024-04-18T02:19:17.349+0000] {processor.py:161} INFO - Started process (PID=4095) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:19:17.350+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:19:17.352+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:19:17.351+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:19:17.359+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:19:17.375+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:19:17.375+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:19:17.387+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:19:17.387+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:19:17.410+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.068 seconds
+[2024-04-18T02:20:04.820+0000] {processor.py:161} INFO - Started process (PID=4191) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:20:04.821+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:20:04.823+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:20:04.823+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:20:04.830+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:20:04.846+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:20:04.846+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:20:04.858+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:20:04.858+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:20:04.881+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.067 seconds
+[2024-04-18T02:20:50.413+0000] {processor.py:161} INFO - Started process (PID=4242) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:20:50.414+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:20:50.416+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:20:50.415+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:20:50.422+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:20:50.439+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:20:50.438+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:20:50.450+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:20:50.450+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:20:50.470+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.063 seconds
+[2024-04-18T02:21:31.667+0000] {processor.py:161} INFO - Started process (PID=4285) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:21:31.668+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:21:31.669+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:21:31.669+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:21:31.676+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:21:31.693+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:21:31.692+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:21:31.704+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:21:31.704+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:21:31.725+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.065 seconds
+[2024-04-18T02:22:14.891+0000] {processor.py:161} INFO - Started process (PID=4373) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:22:14.892+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:22:14.894+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:22:14.893+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:22:14.900+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:22:14.917+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:22:14.917+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:22:14.929+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:22:14.929+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:22:14.951+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.066 seconds
+[2024-04-18T02:22:56.076+0000] {processor.py:161} INFO - Started process (PID=4418) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:22:56.077+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:22:56.079+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:22:56.079+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:22:56.086+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:22:56.102+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:22:56.102+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:22:56.114+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:22:56.114+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:22:56.135+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.065 seconds
+[2024-04-18T02:23:38.920+0000] {processor.py:161} INFO - Started process (PID=4462) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:23:38.922+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:23:38.923+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:23:38.923+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:23:38.930+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:23:38.947+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:23:38.946+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:23:38.958+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:23:38.958+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:23:38.981+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.066 seconds
+[2024-04-18T02:24:20.457+0000] {processor.py:161} INFO - Started process (PID=4550) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:24:20.458+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:24:20.459+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:24:20.459+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:24:20.466+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:24:20.482+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:24:20.482+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:24:20.494+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:24:20.493+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:24:20.513+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.062 seconds
+[2024-04-18T02:25:02.877+0000] {processor.py:161} INFO - Started process (PID=4594) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:25:02.878+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:25:02.880+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:25:02.880+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:25:02.887+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:25:02.904+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:25:02.904+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:25:02.916+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:25:02.916+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:25:02.938+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.067 seconds
+[2024-04-18T02:25:44.056+0000] {processor.py:161} INFO - Started process (PID=4684) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:25:44.057+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:25:44.058+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:25:44.058+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:25:44.065+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:25:44.081+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:25:44.081+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:25:44.093+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:25:44.093+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:25:44.113+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.063 seconds
+[2024-04-18T02:26:23.846+0000] {processor.py:161} INFO - Started process (PID=4727) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:26:23.847+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:26:23.849+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:26:23.849+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:26:23.856+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:26:23.872+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:26:23.872+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:26:23.884+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:26:23.884+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:26:23.907+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.067 seconds
+[2024-04-18T02:27:04.428+0000] {processor.py:161} INFO - Started process (PID=4769) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:27:04.429+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:27:04.430+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:27:04.430+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:27:04.437+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:27:04.453+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:27:04.453+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:27:04.465+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:27:04.465+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:27:04.485+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.063 seconds
+[2024-04-18T02:27:48.360+0000] {processor.py:161} INFO - Started process (PID=4861) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:27:48.362+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:27:48.363+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:27:48.363+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:27:48.370+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:27:48.386+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:27:48.386+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:27:48.398+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:27:48.397+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:27:48.417+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.063 seconds
+[2024-04-18T02:28:29.757+0000] {processor.py:161} INFO - Started process (PID=4903) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:28:29.758+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:28:29.759+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:28:29.759+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:28:29.766+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:28:29.783+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:28:29.783+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:28:29.795+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:28:29.795+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:28:29.815+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.065 seconds
+[2024-04-18T02:29:12.433+0000] {processor.py:161} INFO - Started process (PID=4951) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:29:12.434+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:29:12.436+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:29:12.436+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:29:12.443+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:29:12.459+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:29:12.459+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:29:12.471+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:29:12.471+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:29:12.493+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.066 seconds
+[2024-04-18T02:29:54.353+0000] {processor.py:161} INFO - Started process (PID=5039) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:29:54.354+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:29:54.356+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:29:54.355+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:29:54.363+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:29:54.380+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:29:54.380+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:29:54.392+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:29:54.392+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:29:54.414+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.067 seconds
+[2024-04-18T02:30:40.945+0000] {processor.py:161} INFO - Started process (PID=5087) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:30:40.946+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:30:40.948+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:30:40.948+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:30:40.955+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:30:40.971+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:30:40.971+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:30:40.983+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:30:40.983+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:30:41.003+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.064 seconds
+[2024-04-18T02:31:20.965+0000] {processor.py:161} INFO - Started process (PID=5132) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:31:20.967+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:31:20.968+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:31:20.968+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:31:20.975+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:31:20.992+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:31:20.991+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:31:21.004+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:31:21.004+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:31:21.025+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.066 seconds
+[2024-04-18T02:32:03.038+0000] {processor.py:161} INFO - Started process (PID=5221) to work on /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:32:03.040+0000] {processor.py:830} INFO - Processing file /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py for tasks to queue
+[2024-04-18T02:32:03.041+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:32:03.041+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:32:03.048+0000] {processor.py:840} INFO - DAG(s) 'sagemaker_workflow' retrieved from /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py
+[2024-04-18T02:32:03.065+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:32:03.064+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-18T02:32:03.077+0000] {logging_mixin.py:188} INFO - [2024-04-18T02:32:03.077+0000] {dag.py:3954} INFO - Setting next_dagrun for sagemaker_workflow to None, run_after=None
+[2024-04-18T02:32:03.098+0000] {processor.py:183} INFO - Processing /home/ec2-user/airflow/dags/SageMaker-Workflow-dag2.py took 0.066 seconds

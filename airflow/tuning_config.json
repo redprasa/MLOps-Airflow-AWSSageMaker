@@ -1,0 +1,23 @@
+{
+  "HyperParameterTuningJobConfig": {
+    "Strategy": "Bayesian",
+    "HyperParameterTuningJobObjective": {
+      "Type": "Minimize",
+      "MetricName": "validation:error"
+    },
+    "ResourceLimits": {
+      "MaxNumberOfTrainingJobs": 20,
+      "MaxParallelTrainingJobs": 4
+    },
+    "ParameterRanges": {
+      "ContinuousParameterRanges": [
+        {
+          "Name": "learning_rate",
+          "MinValue": 0.001,
+          "MaxValue": 0.1
+        }
+      ]
+    }
+  }
+}
+

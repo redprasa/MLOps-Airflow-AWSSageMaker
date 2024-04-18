@@ -1,0 +1,13 @@
+{
+  "ProductionVariants": [
+    {
+      "VariantName": "your-variant-name",
+      "ModelName": "your-model-name",
+      "InitialInstanceCount": 1,
+      "InstanceType": "ml.t2.medium",
+      "InitialVariantWeight": 1
+    }
+  ],
+  "EndpointConfigName": "your-endpoint-config-name"
+}
+

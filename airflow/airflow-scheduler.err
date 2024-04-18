@@ -1,0 +1,134 @@
+[2024-04-17 12:16:47 +0000] [2888] [INFO] Starting gunicorn 22.0.0
+[2024-04-17 12:16:47 +0000] [2888] [INFO] Listening at: http://[::]:8793 (2888)
+[2024-04-17 12:16:47 +0000] [2888] [INFO] Using worker: sync
+[2024-04-17 12:16:47 +0000] [2889] [INFO] Booting worker with pid: 2889
+[2024-04-17 12:16:47 +0000] [2891] [INFO] Booting worker with pid: 2891
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/bin/airflow", line 5, in <module>
+    from airflow.__main__ import main
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/airflow/__init__.py", line 40, in <module>
+    from airflow import configuration, settings
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/airflow/configuration.py", line 2346, in <module>
+    conf: AirflowConfigParser = initialize_config()
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/airflow/configuration.py", line 2068, in initialize_config
+    load_standard_airflow_configuration(airflow_config_parser)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/airflow/configuration.py", line 2036, in load_standard_airflow_configuration
+    airflow_config_parser.read(AIRFLOW_CONFIG)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/airflow/configuration.py", line 1282, in read
+    super().read(filenames=filenames, encoding=encoding)
+  File "/usr/lib64/python3.9/configparser.py", line 697, in read
+    self._read(fp, filename)
+  File "/usr/lib64/python3.9/configparser.py", line 1085, in _read
+    raise MissingSectionHeaderError(fpname, lineno, line)
+configparser.MissingSectionHeaderError: File contains no section headers.
+file: '/home/ec2-user/airflow/airflow.cfg', line: 1
+'from airflow import DAG\n'
+[2024-04-18 01:36:25 +0000] [2888] [INFO] Handling signal: hup
+[2024-04-18 01:36:25 +0000] [2888] [INFO] Hang up: Master
+[2024-04-18 01:36:25 +0000] [2888] [INFO] Handling signal: term
+[2024-04-18 01:36:25 +0000] [2888] [ERROR] Worker (pid:2889) was sent SIGHUP!
+[2024-04-18 01:36:25 +0000] [2888] [ERROR] Worker (pid:2891) was sent SIGHUP!
+[2024-04-18 01:36:25 +0000] [95341] [INFO] Booting worker with pid: 95341
+[2024-04-18 01:36:25 +0000] [95342] [INFO] Booting worker with pid: 95342
+[2024-04-18 01:36:55 +0000] [2888] [ERROR] Worker (pid:95341) was sent SIGKILL! Perhaps out of memory?
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/gunicorn/arbiter.py", line 224, in run
+    handler()
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/gunicorn/arbiter.py", line 257, in handle_term
+    raise StopIteration
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.9/logging/__init__.py", line 1086, in emit
+    stream.write(msg + self.terminator)
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.9/logging/__init__.py", line 1086, in emit
+    stream.write(msg + self.terminator)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/gunicorn/arbiter.py", line 554, in reap_workers
+    self.log.error(msg)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/gunicorn/glogging.py", line 272, in error
+    self.error_log.error(msg, *args, **kwargs)
+  File "/usr/lib64/python3.9/logging/__init__.py", line 1475, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "/usr/lib64/python3.9/logging/__init__.py", line 1589, in _log
+    self.handle(record)
+  File "/usr/lib64/python3.9/logging/__init__.py", line 1599, in handle
+    self.callHandlers(record)
+  File "/usr/lib64/python3.9/logging/__init__.py", line 1661, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib64/python3.9/logging/__init__.py", line 952, in handle
+    self.emit(record)
+  File "/usr/lib64/python3.9/logging/__init__.py", line 1091, in emit
+    self.handleError(record)
+  File "/usr/lib64/python3.9/logging/__init__.py", line 1004, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+Call stack:
+  File "/home/ec2-user/.local/bin/airflow", line 8, in <module>
+    sys.exit(main())
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/airflow/__main__.py", line 58, in main
+    args.func(args)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/airflow/utils/cli.py", line 114, in wrapper
+    return f(*args, **kwargs)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/airflow/utils/providers_configuration_loader.py", line 55, in wrapped_function
+    return func(*args, **kwargs)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/airflow/cli/commands/scheduler_command.py", line 58, in scheduler
+    run_command_with_daemon_option(
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/airflow/cli/commands/daemon_utils.py", line 80, in run_command_with_daemon_option
+    callback()
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/airflow/cli/commands/scheduler_command.py", line 61, in <lambda>
+    callback=lambda: _run_scheduler_job(args),
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/airflow/cli/commands/scheduler_command.py", line 48, in _run_scheduler_job
+    with _serve_logs(args.skip_serve_logs), _serve_health_check(enable_health_check):
+  File "/usr/lib64/python3.9/contextlib.py", line 119, in __enter__
+    return next(self.gen)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/airflow/cli/commands/scheduler_command.py", line 76, in _serve_logs
+    sub_proc.start()
+  File "/usr/lib64/python3.9/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "/usr/lib64/python3.9/multiprocessing/context.py", line 224, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "/usr/lib64/python3.9/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+  File "/usr/lib64/python3.9/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/usr/lib64/python3.9/multiprocessing/popen_fork.py", line 71, in _launch
+    code = process_obj._bootstrap(parent_sentinel=child_r)
+  File "/usr/lib64/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/airflow/utils/serve_logs.py", line 183, in serve_logs
+    StandaloneGunicornApplication(wsgi_app, options).run()
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/gunicorn/arbiter.py", line 227, in run
+    self.halt()
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/gunicorn/arbiter.py", line 342, in halt
+    self.stop()
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/gunicorn/arbiter.py", line 398, in stop
+    self.kill_workers(signal.SIGKILL)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/gunicorn/arbiter.py", line 652, in kill_workers
+    self.kill_worker(pid, sig)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/gunicorn/arbiter.py", line 662, in kill_worker
+    os.kill(pid, sig)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/gunicorn/arbiter.py", line 554, in reap_workers
+    self.log.error(msg)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/gunicorn/glogging.py", line 272, in error
+    self.error_log.error(msg, *args, **kwargs)
+Message: 'Worker (pid:95341) was sent SIGKILL! Perhaps out of memory?'
+Arguments: ()
+[2024-04-18 01:36:55 +0000] [2888] [INFO] Shutting down: Master
